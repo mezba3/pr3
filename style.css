@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Sonsie+One');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #C3C3C3;
+}
+div {
+	overflow: hidden;
+}
+.main {
+	width: 960px;
+	margin: 0 auto;
+}
+.header {
+	background: #FF80FF;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+.header-menu {
+	float: left;
+}
+nav {
+
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+nav ul li {
+	float: left;
+
+}
+nav ul li a {
+	text-decoration: none;
+	padding: 20px 35px;
+	display: block;
+	font-size: 16px;
+	color: #1A248F;
+	text-transform: uppercase;
+	transition: 1s;
+}
+
+nav ul li a:hover {
+	background: #000;
+	color: #fff;
+}
+.header-search-bar {
+	float: right;
+	margin: 15px auto;
+	margin-right: 40px;
+	overflow: visible;
+}
+input[type="text"] {
+	padding: 5px;
+	width: 190px;
+	height: 17px;
+	border: 1px solid #3EA6FF;
+	border-radius: 3px;
+}
+input[type="text"]:focus {
+	border: 1px solid blue;
+	margin: 0;
+	box-shadow: 0px 0px 5px #000;
+}
+button[type=submit] {
+	background: #000;
+	color: #fff;
+	padding: 6px 20px;
+	border: none;
+	margin-left: 5px;;;;
+	border-radius: 3px;
+}
+
+.main-content {
+}
+.content {
+	float: left;
+	width: 75%;
+	margin-right: 1px;
+}
+.content-top {
+	background: #fff;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.content-top h2 {
+	font-family: 'Sonsie One', cursive;
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 20px;
+	color: #000;
+}
+.content-top h4 {
+	font-family: 'Sonsie One', cursive;
+	font-size: 30px;
+	margin-bottom: 10px;
+	color: #000;
+}
+.content-top  p {
+	text-align: justify;
+	margin-bottom: 20px;
+}
+
+.gallery-bottom {
+}
+.gallery-bottom h2 {
+	margin: 10px;
+	color: #3F4751;
+}
+
+
+.single-gallery {
+	width: 25%;
+	float: left;
+	height: 170px;
+	position: relative;
+
+}
+.single-gallery img {
+	width: 100%;
+	height: 100%;
+}
+
+.position-absolute {
+	position: absolute;
+	background: #000;
+	width: 100%;
+	height: 100%;
+	top: 100%;
+	left: 100%;
+	transition: 1s;
+	color: #fff;
+}
+.single-gallery:hover .position-absolute {
+	top: 0;
+	left: 0;
+	opacity: .5;
+}
+
+
+.sidebar {
+	float: right;
+	width: 24%;
+	background: #FF80FF;
+	padding: 30px;
+	box-sizing: border-box;
+	height: 600px;;;;;;;
+}
+.sidebar h2 {
+	font-family: 'Sonsie One', cursive;
+	letter-spacing: 2px;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.sidebar ul {
+	
+}
+.sidebar ul li {
+	margin-bottom: 10px;
+	line-height: 25px;
+}
+.footer {
+	margin-top: 10px;
+	margin-bottom: 50px;
+	background: #fff;
+	padding: 20px;
+	box-sizing: border-box;
+}
